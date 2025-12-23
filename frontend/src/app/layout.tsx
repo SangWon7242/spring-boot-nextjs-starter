@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./components/layout/Header";
 
 export const metadata: Metadata = {
   title: "스타터 키트",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main className="pt-20">{children}</main>
+      </body>
     </html>
   );
 }
