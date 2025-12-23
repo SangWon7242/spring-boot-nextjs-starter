@@ -54,6 +54,6 @@ custom:
     cookieDomain: "${custom.dev.cookieDomain}"
     frontUrl: "${custom.dev.frontUrl}"
     backUrl: "${custom.dev.backUrl}"
-    name: APP2
+    name: APP1
   genFile:
-    dirPath: c:/spring-temp/app2_dev
+    dirPath: c:/spring-temp/app_dev
